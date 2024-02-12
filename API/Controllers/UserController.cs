@@ -6,11 +6,11 @@ namespace API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]    // This is the route for the controller /api/users
-public class UserController : ControllerBase
+public class userController : ControllerBase
 {
     private readonly DataContext _context;
 
-    public UserController(DataContext context)
+    public userController(DataContext context)
     {
         _context = context;
     }
